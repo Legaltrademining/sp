@@ -56,7 +56,7 @@
         console.log("Authenticated:", authResult);
 
         // Send login result to your backend
-        const res = await fetch("https://backend-ee9p.onrender.com/verify-login", {
+        const res = await fetch("https://spbackend-krqj.onrender.com/verify-login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(authResult),
